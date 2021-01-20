@@ -20,7 +20,7 @@ end
 SaveTaps(Taps,'src/FilterTaps.txt');
 
 
-SHIFT_ACC = 0;
+SHIFT_ACC = 15;
 NPHASES = 4;
 BURST_LENGTH = 512;
 
