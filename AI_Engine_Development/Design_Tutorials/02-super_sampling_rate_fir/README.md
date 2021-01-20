@@ -27,8 +27,8 @@ The purpose of this tutorial is to provide a methodology to enable you to make a
 Before beginning this tutorial you should be familiar with Versal ACAP architecture and more specifically on the AI Engine array processor and interconnect architecture.
 
 * [Xilinx Website for Versal ACAP AI Core Series](https://www.xilinx.com/products/silicon-devices/acap/versal-ai-core.html)
-*[Introduction to the AI Engine](https://forums.xilinx.com/t5/Design-and-Debug-Techniques-Blog/Versal-ACAP-AI-Engines-for-Dummies/ba-p/1132493)
-*[AI Engine Detailed Architecture](https://www.xilinx.com/support/documentation/architecture-manuals/am009-versal-ai-engine.pdf)
+* [Introduction to the AI Engine](https://forums.xilinx.com/t5/Design-and-Debug-Techniques-Blog/Versal-ACAP-AI-Engines-for-Dummies/ba-p/1132493)
+* [AI Engine Detailed Architecture](https://www.xilinx.com/support/documentation/architecture-manuals/am009-versal-ai-engine.pdf)
 
 Software requirements include:
 * [Vitis](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vitis.html)
