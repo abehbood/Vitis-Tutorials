@@ -10,6 +10,8 @@ i = sqrt(-1);
 UTaps = CreateFilter(32);
 Taps = NormalizeCoef(UTaps,32768);
 
+
+
 if(DISPLAY==1)
 fprintf('---------------------------------------------------------------------\n');
 fprintf('Normalization Coef %8d --> Result %d\n\n',Norm,sum(IntCoef));
@@ -31,4 +33,10 @@ phi_3 = fliplr(Taps(1:4:end));
 phi_2 = fliplr(Taps(2:4:end));
 phi_1 = fliplr(Taps(3:4:end));
 phi_0 = fliplr(Taps(4:4:end));
+
+%Specifying Location Constraints
+LOCATION_0_0 = [25,0];
+LOCATION_1_0 = [28,1];
+LOCATION_2_0 = [25,2];
+LOCATION_3_0 = [28,3];
 
