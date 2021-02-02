@@ -26,7 +26,10 @@ Taps_3 = fliplr(Taps(9:16));
 Taps_2 = fliplr(Taps(17:24));
 Taps_1 = fliplr(Taps(25:32));
 
-% phi_3 = fliplr(Taps(1:4:end));
-% phi_2 = fliplr(Taps(2:4:end));
-% phi_1 = fliplr(Taps(3:4:end));
-% phi_0 = fliplr(Taps(4:4:end));
+% Specfying Location Constraints
+
+LOCATION_0_0 = [25,0];
+
+%PLIO Frequency
+
+PLIO_FREQ = 500;

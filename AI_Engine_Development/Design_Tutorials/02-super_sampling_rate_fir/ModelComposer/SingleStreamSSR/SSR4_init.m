@@ -40,3 +40,7 @@ LOCATION_1_0 = [28,1];
 LOCATION_2_0 = [25,2];
 LOCATION_3_0 = [28,3];
 
+%PLIO Frequency
+
+PLIO_FREQ = 500;
+
