@@ -21,10 +21,10 @@ SaveTaps(Taps,'src/FilterTaps.txt');
 SHIFT_ACC = 15;
 BURST_LENGTH = 512;
 
-Taps_1 = Taps(1:8);
-Taps_2 = Taps(9:16);
-Taps_3 = Taps(17:24);
-Taps_4 = Taps(25:32);
+Taps_4 = fliplr(Taps(1:8));
+Taps_3 = fliplr(Taps(9:16));
+Taps_2 = fliplr(Taps(17:24));
+Taps_1 = fliplr(Taps(25:32));
 
 % phi_3 = fliplr(Taps(1:4:end));
 % phi_2 = fliplr(Taps(2:4:end));
