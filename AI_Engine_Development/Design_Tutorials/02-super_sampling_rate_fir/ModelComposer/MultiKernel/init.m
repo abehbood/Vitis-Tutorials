@@ -1,5 +1,8 @@
 DISPLAY = 0;
 
+%Frame size
+N = 4;
+
 Norm = 32768;
 i = sqrt(-1);
 UTaps = CreateFilter(32);
